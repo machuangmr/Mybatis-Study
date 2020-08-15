@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43b65305-5f37-4c16-9054-faed33e3c969" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fgN6HWJii0vnmvXqn5TAR8Sj2i" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-04/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ma.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis-04/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis-02/target/classes" />
+      <recent name="$PROJECT_DIR$/mybatis-02/src/main/java" />
+      <recent name="$PROJECT_DIR$/mybatis-02/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.mybatis-03 [mybatis-generator:generate...]">
+    <configuration name="UserMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ma" />
+      <option name="MAIN_CLASS_NAME" value="com.ma.UserMapperTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ma" />
+      <option name="MAIN_CLASS_NAME" value="com.ma.UserMapperTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ma" />
+      <option name="MAIN_CLASS_NAME" value="com.ma.UserMapperTest" />
+      <option name="METHOD_NAME" value="testGetUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ma" />
+      <option name="MAIN_CLASS_NAME" value="com.ma.UserMapperTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ma" />
+      <option name="MAIN_CLASS_NAME" value="com.ma.UserMapperTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mybatis-03 [mybatis-generator:generate...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/mybatis-03" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserMapperTest.test" />
+      <item itemvalue="JUnit.UserMapperTest.testDelete" />
+      <item itemvalue="JUnit.UserMapperTest.testGetUser" />
+      <item itemvalue="JUnit.UserMapperTest.testInsert" />
+      <item itemvalue="JUnit.UserMapperTest.testUpdate" />
+      <item itemvalue="Maven.mybatis-03 [mybatis-generator:generate...]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.testDelete" />
+        <item itemvalue="JUnit.UserMapperTest.testUpdate" />
+        <item itemvalue="JUnit.UserMapperTest.testInsert" />
+        <item itemvalue="JUnit.UserMapperTest.testGetUser" />
+        <item itemvalue="JUnit.UserMapperTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43b65305-5f37-4c16-9054-faed33e3c969" name="Default Changelist" comment="" />
+      <created>1596635598894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596635598894</updated>
+      <workItem from="1596635603889" duration="5084000" />
+      <workItem from="1596721982249" duration="3029000" />
+      <workItem from="1596726653426" duration="530000" />
+      <workItem from="1596983466776" duration="978000" />
+      <workItem from="1597069722491" duration="1790000" />
+      <workItem from="1597154735343" duration="1769000" />
+      <workItem from="1597156575839" duration="1084000" />
+      <workItem from="1597157710746" duration="628000" />
+      <workItem from="1597242179558" duration="1749000" />
+      <workItem from="1597287263238" duration="1065000" />
+      <workItem from="1597329173624" duration="4443000" />
+      <workItem from="1597475979229" duration="7061000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1472" y="-59" key="#Project_Structure" timestamp="1597479524010">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1472" y="-59" key="#Project_Structure/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597479524010" />
+    <state x="336" y="63" key="#Project_Structure/0.0.1440.900/-1920.-180.1920.1080@0.0.1440.900" timestamp="1597475985072" />
+    <state x="-1472" y="-39" key="#Project_Structure/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597245237070" />
+    <state x="-1496" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597478236996">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1496" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597478236996" />
+    <state x="-1147" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1597331405871">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1147" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597331405871" />
+    <state x="-1191" y="232" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597287722093">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1191" y="232" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597287722093" />
+    <state width="1878" height="341" key="GridCell.Tab.0.bottom" timestamp="1597497378208">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597497378208" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597367680974" />
+    <state width="1878" height="425" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597283138862" />
+    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597156504469" />
+    <state width="1398" height="234" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597194750675" />
+    <state width="1878" height="341" key="GridCell.Tab.0.center" timestamp="1597497378204">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597497378204" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597367680973" />
+    <state width="1878" height="425" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597283138861" />
+    <state width="1878" height="416" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597156504467" />
+    <state width="1398" height="234" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597194750674" />
+    <state width="1878" height="341" key="GridCell.Tab.0.left" timestamp="1597497378201">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597497378201" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597367680971" />
+    <state width="1878" height="425" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597283138861" />
+    <state width="1878" height="416" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597156504466" />
+    <state width="1398" height="234" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597194750674" />
+    <state width="1878" height="341" key="GridCell.Tab.0.right" timestamp="1597497378206">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="341" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597497378206" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597367680974" />
+    <state width="1878" height="425" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597283138862" />
+    <state width="1878" height="416" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597156504468" />
+    <state width="1398" height="234" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597194750674" />
+    <state x="-1451" y="-1" width="1289" height="722" key="SettingsEditor" timestamp="1597334286882">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1451" y="-1" width="1289" height="722" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597334286882" />
+    <state x="-1451" y="18" key="SettingsEditor/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597245226369" />
+    <state x="-1451" y="-1" key="SettingsEditor/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596638074212" />
+    <state x="-1230" y="110" width="549" height="524" key="StructurePopup" timestamp="1597334637030">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1230" y="110" width="549" height="524" key="StructurePopup/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597334637030" />
+    <state x="-1253" y="115" width="586" height="490" key="find.popup" timestamp="1597479009565">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1253" y="115" width="586" height="490" key="find.popup/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597479009565" />
+    <state x="-1803" y="-44" key="new project wizard" timestamp="1597504285087">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1803" y="-44" key="new project wizard/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597504285087" />
+    <state x="88" y="113" key="new project wizard/0.0.1440.900/-1920.-180.1920.1080@0.0.1440.900" timestamp="1596635634588" />
+    <state x="-1189" y="-59" width="614" height="571" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597287345040">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1189" y="-59" width="614" height="571" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597287345040" />
+    <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup" timestamp="1597287342242">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597287342242" />
+    <state x="-1295" y="61" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596638082448" />
+  </component>
+</project>
