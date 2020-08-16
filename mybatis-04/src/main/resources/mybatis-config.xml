@@ -19,6 +19,8 @@
         </environment>
     </environments>
     <mappers>
-       <mapper class="ma.dao.IUserDao"/>
+        <!--这里使用class的方式的注册，直接注册接口的位置，如果报错bind failed, not statement 建议清空maven clean 然后再次运行-->
+       <mapper class="com.ma.dao.StudentMapper" />
+       <mapper class="com.ma.dao.TeacherMapper" />
     </mappers>
 </configuration>

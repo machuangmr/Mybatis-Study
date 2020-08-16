@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ma.dao.StudentMapper">
+
+    <!--将表关联查询，然后将结果再次映射，对象使用association 进行映射，注意字段名字的对应关系-->
+<select id="queryStudents" resultMap="studentnew">
+    select s.id, s.name, t.name from student s left join teacher t on  s.t_id = t.id
+</select>
+    <resultMap id="studentnew" type="com.ma.pojo.Student">
+        <result property="id" column="s.id" />
+        <result property="name" column="s.name" />
+        <association property="teacher" javaType="com.ma.pojo.Teacher">
+            <result property="name" column="t.name" />
+        </association>
+    </resultMap>
+
+
+
+
+
+
+
+
+
+
+    <!-- 按照结果嵌套查询查询方式1、 先查出student 表中的所有数据，因为teacher类是student类中的一个对象，所以使用association标签，
+ 然后在association标签中嵌套select 标签，再次根据id查询出teacher的信息，相当于子查询，效率低下。不推荐使用。-->
+    <select id="getStudents" resultMap="student2teacher">
+        select * from student
+    </select>
+    <resultMap id="student2teacher" type="com.ma.pojo.Student">
+        <result property="id" column="id"/>
+        <result property="name" column="name" />
+        <!--复杂的属性，我们需要单独处理，对象使用association 集合使用collection，注意此处的column对应的是Student表中的数据库字段-->
+        <association property="teacher" column="t_id" javaType="com.ma.pojo.Teacher" select="getTeacher"/>
+    </resultMap>
+    <select id="getTeacher" resultType="com.ma.pojo.Teacher">
+        select * from teacher where id = #{t_id}
+    </select>
+</mapper>
