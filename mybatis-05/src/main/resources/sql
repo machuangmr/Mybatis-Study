@@ -1,0 +1,11 @@
+create table `student` (
+    `id` int(20) primary key auto_increment,
+    `name` varchar(128),
+    `t_id` int(20),
+    constraint `t_id` foreign key(t_id) references teacher(id)
+)engine =innodb character set=utf8;
+
+create table `teacher` (
+    id int(20) primary key auto_increment,
+    name varchar(128)
+)engine=innodb default character set =utf8;

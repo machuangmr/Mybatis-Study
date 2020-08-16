@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ma.dao.TeacherMapper">
+
+    <!--在这里将结果集进行映射，由于是一个老师对应多个学生，所以我们使用collection集合类，一个老师中的学生是一个集合，然后将学生映射-->
+    <select id="getTeachers" resultMap="teacher2Student">
+        select t.id, t.name, s.id, s.name from teacher t  left join student s on t.id = s.t_id and t.id = #{tid}
+    </select>
+
+    <resultMap id="teacher2Student" type="Teacher">
+        <result property="id" column="t.id" />
+        <result property="name" column="t.name" />
+        <!--将学生映射，property 是Teacher类中 学生的属性名称 ofType 是该集合类的泛型-->
+        <collection property="students" ofType="Student">
+            <result property="id" column="s.id" />
+            <result property="name" column="s.name" />
+        </collection>
+    </resultMap>
+
+
+    <select id="getTeacher2" resultMap="teacherToStudent">
+        select * from teacher where id = #{tid}
+    </select>
+    <resultMap id="teacherToStudent" type="Teacher">
+        <result property="id" column="id" />
+        <result property="name" column="name" />
+        <!--javaType 用来制定实体类中的类型，property 属性students对应teacher类中属性 column 对应老师类中的id  ofType 指定集合中的泛型-->
+        <collection property="students" javaType="ArrayList" ofType="Student"  select="getStudentsByTeacherId" column="id"/>
+    </resultMap>
+    <select id="getStudentsByTeacherId" resultType="Student">
+        select * from student where t_id = #{id}
+    </select>
+</mapper>
