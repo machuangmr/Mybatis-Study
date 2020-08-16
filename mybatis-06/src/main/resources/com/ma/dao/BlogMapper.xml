@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ma.dao.BlogMapper">
+    <!--动态sql 我们利用if将我们需要的 参数在sql中进行拼接， -->
+    <select id="getBlogIf" resultType="Blog">
+        select * from blog where 1 = 1
+
+        <if test="title != null and title != ''">
+            and title = #{title}
+        </if>
+        <if test="views != null">
+            and views > #{views}
+        </if>
+    </select>
+
+    <select id="getBlogByMap" parameterType="map" resultType="Blog">
+        select * from blog where 1 = 1
+        <if test="title != null and title != ''">
+            and title = #{title}
+        </if>
+        <if test="views != null">
+            and views > #{views}
+        </if>
+    </select>
+
+    <!--利用where子句将sql改造，where元素，只会在至少一个元素的条件返回sql子句的情况下才会去插入where子句，
+    当有多个条件成立的时候，where子句会将第一个成立的条件前面的and去掉-->
+    <select id="getBlogByMaps" parameterType="map" resultType="Blog">
+        select * from blog
+        <where>
+            <if test="title != null and title != ''">
+               title = #{title}
+            </if>
+            <if test="view != null">
+             and views = #{views}
+            </if>
+        </where>
+    </select>
+
+    <select id="getBlogByChoose" resultType="Blog">
+        select * from blog
+        <where>
+             <choose>
+                <when test="title != null and title != ''">
+                        title = #{title}
+                </when>
+                <when  test="auth != null and auth != ''">
+                    and auth = #{auth}
+               </when>
+               <otherwise>
+                  views = #{views}
+               </otherwise>
+             </choose>
+        </where>
+
+    </select>
+
+
+    <!-- set 标签可以去除末尾多余的逗号-->
+    <update id="updateBlog" parameterType="Blog">
+        update blog
+        <set>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="author != null and author != ''">
+               author = #{author},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+</mapper>
