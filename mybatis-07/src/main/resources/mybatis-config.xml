@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--显示的开启缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="com.ma.pojo.User" alias="User"/>
+    </typeAliases>
+    <environments default="development">
+        <!--可以有多套测试myatis的环境-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useUniode=true&amp;characterEncoding=utf8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="mcd861828"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--这里使用class的方式的注册，直接注册接口的位置，如果报错bind failed, not statement 建议清空maven clean 然后再次运行-->
+        <mapper class="com.ma.dao.UserMapper" />
+    </mappers>
+</configuration>
